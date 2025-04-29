@@ -13,8 +13,6 @@
 
 # Veja o código no editor. Criamos word_without_vowels e atribuímos uma string vazia a ela. Use a operação de concatenação para pedir ao Python que combine letras selecionadas em uma sequência mais longa durante as voltas de loop subsequentes e atribua-a à variável word_without_vowels.
 
-# Teste seu programa com os dados que fornecemos para você.
-
 user_word = input("Digite uma palavra: ")
 
 user_word = user_word.upper()
