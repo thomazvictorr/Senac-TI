@@ -11,10 +11,8 @@
 
 secret_number = 777 
 
-# Solicita o primeiro palpite do usuário
 guess = int(input("🔮 Adivinhe o número secreto: "))
 
-# Enquanto o palpite for diferente do número secreto
 while guess != secret_number:
     print("""
 ========================================
@@ -24,7 +22,6 @@ Tente novamente...
 """)
     guess = int(input("🔮 Adivinhe o número secreto: "))
 
-# Quando o palpite estiver correto
 print(f"""
 ========================================
 🎉 Muito bem, trouxa! Você está livre agora! 🎉
