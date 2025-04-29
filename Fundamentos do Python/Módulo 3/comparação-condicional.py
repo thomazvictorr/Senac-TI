@@ -8,7 +8,6 @@
 # imprime "Não, eu quero um grande Spathiphyllum!" se a sequência inserida for "spathiphyllum" (letra minúscula)
 # imprime "Spathiphyllum! Not[input]!", Caso contrário. Nota: [input] é a string usada como entrada.
 
-# Teste seu código usando os dados que fornecemos para você. E compre um Spathiphyllum também!
 name = input("Insira o nome da flor: ")
 
 if name == "Spathiphyllum":
