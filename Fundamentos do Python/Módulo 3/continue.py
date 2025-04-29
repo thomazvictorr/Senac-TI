@@ -13,8 +13,6 @@
 # use execução condicional e a declaração continue para "consumir" as seguintes vogais A, E, I, O, U da palavra inserida;
 # imprima as letras não consumidas na tela, cada uma delas em uma linha separada.
 
-# Teste seu programa com os dados que fornecemos para você.
-
 user_word = input("Digite uma palavra: ")
 
 user_word = user_word.upper()
