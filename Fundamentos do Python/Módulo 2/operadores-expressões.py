@@ -1,7 +1,19 @@
-# Sua tarefa é completar o código para avaliar a seguinte expressão: Derivada parcial: ∂z/∂x
-# O resultado deve ser atribuído a y. Tenha cuidado - observe os operadores e mantenha suas prioridades em mente. Não hesite em usar quantos parênteses forem necessários.
-# Você pode usar variáveis adicionais para encurtar a expressão (mas não é necessário). Teste seu código com cuidado.
+# Dê uma olhada no código no editor: ele lê um valor float, coloca-o em uma variável chamada x e imprime o valor de uma variável chamada y. 
+# Sua tarefa é completar o código para avaliar a seguinte expressão:
+# 3x3 - 2x2 + 3x - 1
+# O resultado deve ser atribuído a y.
 
-x = float(input("Digite o valor para x: "))
-y = 1./(x + 1./(x + 1./(x + 1./x)))
+x = 0
+x = float(x)
+y = 3 * x**3 - 2 * x**2 + 3 * x - 1
+print("y =", y)
+
+x = 1
+x = float(x)
+y = 3 * x**3 - 2 * x**2 + 3 * x - 1
+print("y =", y)
+
+x = -1
+x = float(x)
+y = 3 * x**3 - 2 * x**2 + 3 * x - 1
 print("y =", y)
