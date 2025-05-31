@@ -10,6 +10,6 @@ class Program
             Console.WriteLine(contador);
             contador = contador - 1;
         }
-        Console.WriteLine("FOGO!!!1!");
+        Console.WriteLine("FOGO!!!!");
     }
 }
